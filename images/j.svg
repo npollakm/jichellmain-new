@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="501px" viewBox="0 0 256 501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>path22</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="g10-copy" transform="translate(128.500000, 251.000000) scale(-1, 1) rotate(-180.000000) translate(-128.500000, -251.000000) translate(0.000000, -0.000000)" fill="#252525" fill-rule="nonzero">
+            <g id="g12" transform="translate(-0.000000, -0.000000)">
+                <g id="g14-Clipped" transform="translate(-0.000000, 0.000000)">
+                    <g id="g14" transform="translate(0.666667, 0.666667)">
+                        <g id="g20" transform="translate(0.002000, 0.629067)">
+                            <path d="M61.5856294,500 L214.882317,237.069887 C233.196949,205.661899 244.656982,180.955888 249.273127,162.963904 C255.118279,142.855294 256.303107,123.686514 252.836983,105.441499 C246.323775,69.4307544 226.130821,41.5558302 192.268833,21.8127099 C166.649768,6.8758418 138.793587,-0.387088133 108.702967,0.0158873344 L108.06972,70.0559688 C128.812915,68.7479721 145.67764,71.8820769 158.663892,79.4529283 C176.910246,90.0909451 185.50661,104.382517 184.450306,122.323627 C183.744764,140.47225 173.322292,166.816939 153.18289,201.357693 L-1.13686838e-13,464.092342 L61.5856294,500 Z" id="path22"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Johanna Lindstedt</title>
+    <meta name="description" content="Johanna Lindstedt is a remote UX & Product Designer.">
+    <meta charset="UTF-8"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1"/>
+       <meta name=”robots” content="index, follow">
+       <link rel="stylesheet" type ="text/css" href="styles.css" media ="screen"/>
+       <link rel="icon" href="images/doggy.svg" sizes="any" type="image/svg+xml"/>
+
+   
+</head>
+<body>
+
+  <div class="yttre-ram">
+      <div class="div-block">
+      <object class="poodle" data="images/stupid-poodle.png" type="image/png">
+        <img src="images/stupid-poodle.png" />
+       </object>
+          <div class="heading" id="text">Johanna Lindstedt</div>
+          <div class="heading-2">UX & PRODUCT DESIGN</div>
+          <div class="link-block w-inline-block">
+            
+            <a href='https://www.linkedin.com/in/johannalindstedt/'><div class="text-block">Linkedin</div></a>
+            <a href="mailto:post@jichell.se"><div class="text-block">Email</div></a>
+            <a href="./cv/JLCV21Full.pdf" target="blank"><div class="text-block">CV</div></a>
+          </a>
+        </div>
+      </div> 
+
+
+
+      </div> 
+
+
+
+
+<script>
+  var j = 0, i = 0;
+  var speed = 65;
+  var delay = 4000;
+  var tempText;
+  var text = ["Йоханна Линдштедт ","Johanna Lindstedt","Жоханна Линдстедт", " Ёхана Ліндстэд ", "   ජොහානා ලින්ඩ්ස්ටෙඩ් ", "   جوهانه لنڊڊٽ ", "    约翰娜·林德斯泰特      ","         জোহনা লিন্ডস্টেট         ","Јоханна Линдстедт"];
+  window.onload = function(){
+      write();
+  }
+
+function write(){
+      if(j === 0){
+          tempText = document.getElementById("text").innerHTML;
+      }
+      if(j < 17){
+          tempText = setCharAt(tempText, j, text[i].charAt(j));
+          document.getElementById("text").innerHTML = tempText;
+          j++;
+          setTimeout(write, speed);
+      }
+      else if(j === 17){
+          console.log('finished');
+          setTimeout(function(){
+            console.log('continue');
+            j = 0;
+            if(i === 8){
+                i = 0;
+            
+            }
+            else{
+                i++;
+            }
+            write();
+        }, 2000);
+    }
+          //setTimeout(restartValues, 500);
+          
+      }
+    
+  
+
+
+
+  function setCharAt(str,index,chr) {
+      if(index > str.length) return str;
+      return str.substring(0,index) + chr + str.substring(index+1);
+  }
+ 
+ 
+
+</script>
+
+
+
+
+
+    </body>
+    
+    
+
+</html>
+
+ 
+
+
+   

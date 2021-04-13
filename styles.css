@@ -1,0 +1,182 @@
+
+
+  @font-face {
+    font-family: "Inter";
+    src: url("Applications/MAMP/htdocs/jichellmain/webfonts/Inter-VariableFont_slnt,wght.ttf");
+    font-family: "CMU-Bright";
+    src: url("webfonts/CMU-Bright/CMU-Bright.otf");
+    font-family: "Nunito";
+    src: url("webfonts/Nunito/Nunito-Regular.ttf");
+}
+
+
+/*GENERAL*/
+body {
+  font-family: "Roboto"; 
+  background-color: #FBFBFB;
+}
+/*OUTER DIV*/
+.yttre-ram {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+
+ 
+  align-items: center;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #1900ff;
+  border-right-width: 20px;
+  border-left-width: 20px;
+  margin: -8px;
+ 
+}
+
+/*MAIN DIV*/
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+/*HEADING AND LINK STYLES*/
+.heading-2 {
+  color: #0d00ff;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.2rem;
+}
+
+.text-block {
+  margin-bottom: 0px;
+  color: #f0c;
+  text-decoration-line: underline;
+  text-decoration-color: #ff00d0 !important;
+}
+
+
+
+.heading {
+  color: #0d00ff;
+  font-family:  "Nunito";
+  font-weight: 400;
+  line-height: 80%;
+  letter-spacing: 0.2rem;
+  font-size: 38px;
+  word-break: keep-all;
+  font-weight:600;
+  
+}
+
+
+/*DOGGY*/
+
+
+.poodle {
+  height: 120px;
+  width: 120px;
+}
+
+
+
+/*Screen-sizes and variations headings and poodle*/
+@media screen and (max-width: 420px) {
+  .heading {
+    font-size:20px;
+  }
+
+  .heading-2 {
+    font-size: 15px;
+  }
+
+  .poodle {
+    height: 120px;
+    width: 120px;
+  }
+/*font-classes*/
+.Roboto {
+  font-family: "Roboto";
+}
+
+.Nunito {
+  font-family: "Nunito";
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  /*Screen-sizes and variations links*/
+
+
+@media screen and (max-width: 991px) {
+  .div-block {
+    text-align: center;
+  }
+
+  .link-block {
+    color: #ff00d0;
+    
+    text-decoration-color: #ff00d0 !important;
+  }
+
+.a {
+  color: #ff00d0;
+  text-decoration: underline;
+  text-decoration-color: #ff00d0 !important;
+ }
+
+ .link-block:hover {
+   color: grey;
+ }
+
+
+/*To be deleted*/
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+  }
+
+}
+
+}
+
+}
+
+
